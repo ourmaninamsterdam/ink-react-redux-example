@@ -32,8 +32,9 @@ export const makeChoice = choiceIdx => {
   }
 };
 
+const sceneText = [];
+
 export const gameLoop = () => {
-  const sceneText = [];
   let currentTags = [];
 
   while (ink.canContinue) {
@@ -56,10 +57,10 @@ export const gameLoop = () => {
 };
 
 export const getGlobalVars = variablesState =>
-  Object.keys(variablesState._globalVariables).reduce(
-    (acc, key) => ({
+  Array.from(variablesState._globalVariables).reduce(
+    (acc, [key, entry]) => ({
       ...acc,
-      [key]: variablesState[key]
+      [key]: entry.value
     }),
     {}
   );
