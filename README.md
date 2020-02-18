@@ -2,8 +2,6 @@
 
 This project was forked from [Ink React Redux Example](https://github.com/aendrew/ink-react-redux-example) and updated with the latest Create React App.
 
-Uses the [Intercept story](https://github.com/inkle/the-intercept/blob/master/Assets/Ink/TheIntercept.ink).
-
 ## Available Scripts
 
 In the project directory, you can run:
@@ -33,4 +31,4 @@ See the section about [deployment](https://facebook.github.io/create-react-app/d
 
 ### More information
 
-See the [Create React App](https://facebook.github.io/create-react-app/docs/deployment).
+See [Create React App](https://facebook.github.io/create-react-app/docs/deployment).
